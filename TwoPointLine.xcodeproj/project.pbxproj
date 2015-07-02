@@ -14,6 +14,7 @@
 		3E0E28321B3D804A006FA5B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E28311B3D804A006FA5B3 /* Images.xcassets */; };
 		3E0E28351B3D804A006FA5B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E28331B3D804A006FA5B3 /* LaunchScreen.xib */; };
 		3E0E28411B3D804B006FA5B3 /* TwoPointLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E28401B3D804B006FA5B3 /* TwoPointLineTests.m */; };
+		3E2020EA1B3D89CD00778F05 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2020E91B3D89CD00778F05 /* Line.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3E0E283A1B3D804B006FA5B3 /* TwoPointLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPointLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0E283F1B3D804B006FA5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E0E28401B3D804B006FA5B3 /* TwoPointLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoPointLineTests.m; sourceTree = "<group>"; };
+		3E2020E81B3D89CD00778F05 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		3E2020E91B3D89CD00778F05 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				3E0E28291B3D804A006FA5B3 /* AppDelegate.m */,
 				3E0E282B1B3D804A006FA5B3 /* ViewController.h */,
 				3E0E282C1B3D804A006FA5B3 /* ViewController.m */,
+				3E2020E81B3D89CD00778F05 /* Line.h */,
+				3E2020E91B3D89CD00778F05 /* Line.m */,
 				3E0E282E1B3D804A006FA5B3 /* Main.storyboard */,
 				3E0E28311B3D804A006FA5B3 /* Images.xcassets */,
 				3E0E28331B3D804A006FA5B3 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E0E282D1B3D804A006FA5B3 /* ViewController.m in Sources */,
+				3E2020EA1B3D89CD00778F05 /* Line.m in Sources */,
 				3E0E282A1B3D804A006FA5B3 /* AppDelegate.m in Sources */,
 				3E0E28271B3D804A006FA5B3 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				3E0E28461B3D804B006FA5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E0E28471B3D804B006FA5B3 /* Build configuration list for PBXNativeTarget "TwoPointLineTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				3E0E28491B3D804B006FA5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
